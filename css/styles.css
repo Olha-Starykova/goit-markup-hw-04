@@ -63,6 +63,14 @@ html {
   align-items: center;
 }
 
+.page-header{
+  margin-right: auto;
+  margin-left: auto;
+
+    width: 1600px;
+
+}
+
 .mhh.link {
   display: flex;
   justify-content: flex-end;
@@ -86,6 +94,11 @@ html {
 
 .margin-botton {
   padding-bottom: 94px;
+ 
+  max-width: 1600px;
+  margin-right: auto;
+  margin-left: auto;
+
 }
 
 .logo.current .logoacc {
@@ -170,6 +183,11 @@ html {
 .sec {
   padding-top: 94px;
   padding-bottom: 94px;
+  max-width: 1600px;
+  margin-right: auto;
+  margin-left: auto;
+
+
 }
 
 .secc{
@@ -244,7 +262,7 @@ html {
   padding: 0 15px;
   margin-right: auto;
   margin-left: auto;
-  outline: 2px solid tomato;
+  
 }
 
 .section {
@@ -280,6 +298,7 @@ html {
 .page-header .flexbox {
   align-items: center;
   justify-content: flex-end;
+  
 }
 
 
@@ -426,6 +445,8 @@ html {
 
   border-radius: 4px;
   border:  none;
+  
+
 }
 
 .container-button .button:not(:last-child) {
@@ -485,6 +506,13 @@ html {
   padding-bottom: 50px;
   padding-top: 94px;
 }
+
+.div{
+    max-width: 1600px;
+  margin-right: auto;
+  margin-left: auto;
+
+} 
 
 .text {
   padding-right: 24px;
