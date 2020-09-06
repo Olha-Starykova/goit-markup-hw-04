@@ -405,6 +405,9 @@ html {
   width: calc((100% - 30px * 3) / 4);
   width: 270px;
   background-color: #fff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .section-one.f.sec {
@@ -656,6 +659,18 @@ html {
 .item-portfolio {
   width: calc((100% - 60px) / 3);
   margin-right: 30px;
+  margin-bottom: 30px;
+
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+}
+
+.item-portfolio:hover {
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .item-portfolio:nth-child(3n) {
@@ -685,10 +700,52 @@ html {
   padding-bottom: 20px;
   padding-top: 20px;
   padding-left: 24px;
+  width: 370px;
 }
 
 .img {
   display: block;
   max-width: 100%;
   height: auto;
+}
+
+.footer-icon {
+  margin-left: 70px;
+}
+
+.tekst-footer {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+
+  text-transform: uppercase;
+
+  color: #ffffff;
+
+  padding-bottom: 20px;
+  padding-top: 72px;
+  margin: 0;
+}
+
+.icon-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.href-button.white {
+  background: rgba(255, 255, 255, 0.1);
+  width: 44px;
+  height: 44px;
+  padding: 12px;
+  display: flex;
+  border: transparent;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+}
+
+.href-button.white:hover {
+  background-color: var(--accent-color);
 }
